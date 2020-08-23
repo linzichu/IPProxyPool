@@ -1,0 +1,54 @@
+[DEBUG 2020-08-16 18:40:35]This is debug message
+[INFO 2020-08-16 18:40:35]This is info message
+[WARNING 2020-08-16 18:40:35]This is warning message
+[ERROR 2020-08-16 18:40:35]This is error
+[CRITICAL 2020-08-16 18:40:35]This is critical message
+[DEBUG 2020-08-17 11:02:47]This is debug message
+[INFO 2020-08-17 11:02:47]This is info message
+[WARNING 2020-08-17 11:02:47]This is warning message
+[ERROR 2020-08-17 11:02:47]This is error
+[CRITICAL 2020-08-17 11:02:47]This is critical message
+[DEBUG 2020-08-17 11:39:56]This is debug message
+[INFO 2020-08-17 11:39:56]This is info message
+[WARNING 2020-08-17 11:39:56]This is warning message
+[ERROR 2020-08-17 11:39:56]This is error
+[CRITICAL 2020-08-17 11:39:56]This is critical message
+[DEBUG 2020-08-17 11:42:46]This is debug message
+[INFO 2020-08-17 11:42:46]This is info message
+[WARNING 2020-08-17 11:42:46]This is warning message
+[ERROR 2020-08-17 11:42:46]This is error
+[CRITICAL 2020-08-17 11:42:46]This is critical message
+[DEBUG 2020-08-20 12:09:53]This is debug message
+[INFO 2020-08-20 12:09:53]This is info message
+[WARNING 2020-08-20 12:09:53]This is warning message
+[ERROR 2020-08-20 12:09:53]This is error
+[CRITICAL 2020-08-20 12:09:53]This is critical message
+[DEBUG 2020-08-20 14:43:36]this is a debug
+[ERROR 2020-08-20 16:58:53]test log
+[DEBUG 2020-08-20 19:11:58]插入新的的代理地址:192.168.31.40
+[WARNING 2020-08-20 19:14:22]已经存在的代理:192.168.31.40
+[WARNING 2020-08-20 19:15:36]已经存在的代理:192.168.31.40
+[WARNING 2020-08-21 09:46:47]已经存在的代理:192.168.31.40
+[WARNING 2020-08-21 09:54:46]已经存在的代理:192.168.31.40
+[WARNING 2020-08-21 09:56:52]已经存在的代理:192.168.31.40
+[WARNING 2020-08-21 09:58:22]已经存在的代理:192.168.31.40
+[DEBUG 2020-08-21 09:58:46]插入新的的代理地址:192.168.1.40
+[WARNING 2020-08-21 09:59:36]已经存在的代理:192.168.1.40
+[WARNING 2020-08-21 11:00:25]已经存在的代理:192.168.1.40
+[WARNING 2020-08-21 11:01:00]已经存在的代理:{'ip': '192.168.1.40', 'port': '80', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domains': []}
+[WARNING 2020-08-21 12:25:15]已经存在的代理:{'ip': '192.168.1.40', 'port': '808', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domains': []}
+[DEBUG 2020-08-21 12:27:55]插入新的的代理地址:{'ip': '192.168.1.41', 'port': '80', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domains': [], '_id': '192.168.1.41'}
+[DEBUG 2020-08-21 14:13:35]插入新的的代理地址:{'ip': '192.168.1.42', 'port': '80', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domains': [], '_id': '192.168.1.42'}
+[DEBUG 2020-08-21 14:27:57]插入新的的代理地址:{'ip': '192.168.1.43', 'port': '80', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domains': [], '_id': '192.168.1.43'}
+[WARNING 2020-08-21 14:28:27]已经存在的代理:{'ip': '192.168.1.43', 'port': '80', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domains': []}
+[DEBUG 2020-08-21 14:34:41]test debug
+[INFO 2020-08-21 14:37:29]test info
+[DEBUG 2020-08-21 14:36:49]test debug
+[INFO 2020-08-21 14:36:49]test info
+[DEBUG 2020-08-21 14:37:29]test debug
+[WARNING 2020-08-21 14:37:29]test waring
+[DEBUG 2020-08-21 14:39:06]test debug
+[INFO 2020-08-21 14:39:06]test info
+[WARNING 2020-08-21 14:39:06]test waring
+[WARNING 2020-08-21 14:53:30]已经存在的代理:{'ip': '192.168.1.43', 'port': '80', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domains': []}
+[DEBUG 2020-08-21 14:54:52]此id已经被删除：{'ip': '192.168.1.43', 'port': '80', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domains': []}

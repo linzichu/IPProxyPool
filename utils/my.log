@@ -1,0 +1,40 @@
+2020-08-20 11:38:32,703 - DEBUG - This is a debug log.
+2020-08-20 11:38:32,704 - INFO - This is a info log.
+2020-08-20 11:38:32,704 - WARNING - This is a warning log.
+2020-08-20 11:38:32,704 - ERROR - This is a error log.
+2020-08-20 11:38:32,704 - CRITICAL - This is a critical log.
+2020-08-20 11:39:57,197 - DEBUG - This is a debug log.
+2020-08-20 11:39:57,197 - INFO - This is a info log.
+2020-08-20 11:39:57,197 - WARNING - This is a warning log.
+2020-08-20 11:39:57,197 - ERROR - This is a error log.
+2020-08-20 11:39:57,198 - CRITICAL - This is a critical log.
+2020-08-20 11:40:16,686 - DEBUG - This is a debug log.
+2020-08-20 11:40:16,686 - INFO - This is a info log.
+2020-08-20 11:40:16,686 - WARNING - This is a warning log.
+2020-08-20 11:40:16,688 - ERROR - This is a error log.
+2020-08-20 11:40:16,688 - CRITICAL - This is a critical log.
+2020-08-20 11:41:33,411 - DEBUG - This is a debug log.
+2020-08-20 11:41:33,411 - INFO - This is a info log.
+2020-08-20 11:41:33,411 - WARNING - This is a warning log.
+2020-08-20 11:41:33,411 - ERROR - This is a error log.
+2020-08-20 11:41:33,411 - CRITICAL - This is a critical log.
+08/20/2020 11:51:53 AM - DEBUG - This is a debug log.
+08/20/2020 11:51:53 AM - INFO - This is a info log.
+08/20/2020 11:51:53 AM - WARNING - This is a warning log.
+08/20/2020 11:51:53 AM - ERROR - This is a error log.
+08/20/2020 11:51:53 AM - CRITICAL - This is a critical log.
+08/20/20 11:58:44 AM - DEBUG - This is a debug log.
+08/20/20 11:58:44 AM - INFO - This is a info log.
+08/20/20 11:58:44 AM - WARNING - This is a warning log.
+08/20/20 11:58:44 AM - ERROR - This is a error log.
+08/20/20 11:58:44 AM - CRITICAL - This is a critical log.
+08/08/20/20/2020 11:59:21 AM - DEBUG - This is a debug log.
+08/08/20/20/2020 11:59:21 AM - INFO - This is a info log.
+08/08/20/20/2020 11:59:21 AM - WARNING - This is a warning log.
+08/08/20/20/2020 11:59:21 AM - ERROR - This is a error log.
+08/08/20/20/2020 11:59:21 AM - CRITICAL - This is a critical log.
+08/20/2020 11:59:45 AM - DEBUG - This is a debug log.
+08/20/2020 11:59:45 AM - INFO - This is a info log.
+08/20/2020 11:59:45 AM - WARNING - This is a warning log.
+08/20/2020 11:59:45 AM - ERROR - This is a error log.
+08/20/2020 11:59:45 AM - CRITICAL - This is a critical log.
