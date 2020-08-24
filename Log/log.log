@@ -52,3 +52,6 @@
 [WARNING 2020-08-21 14:39:06]test waring
 [WARNING 2020-08-21 14:53:30]已经存在的代理:{'ip': '192.168.1.43', 'port': '80', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domains': []}
 [DEBUG 2020-08-21 14:54:52]此id已经被删除：{'ip': '192.168.1.43', 'port': '80', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domains': []}
+[WARNING 2020-08-24 15:53:17]已经存在的代理:{'ip': '192.168.1.42', 'port': None, 'protocol': -1, 'nick_type': -1, 'speed': 2, 'area': None, 'score': 50, 'disable_domains': []}
+[DEBUG 2020-08-24 15:53:45]插入新的的代理地址:{'ip': '193.168.1.42', 'port': None, 'protocol': -1, 'nick_type': -1, 'speed': 2, 'area': None, 'score': 50, 'disable_domains': [], '_id': '193.168.1.42'}
+[WARNING 2020-08-24 15:56:12]已经存在的代理:{'ip': '193.168.1.42', 'port': None, 'protocol': -1, 'nick_type': -1, 'speed': 2, 'area': None, 'score': 50, 'disable_domains': []}

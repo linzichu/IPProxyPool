@@ -12,7 +12,7 @@ class Proxy(object):
         self.protocol = protocol
         # nick_type：代理IP的匿名程度，高匿：0，匿名：1，透明：2
         self.nick_type = nick_type
-        # speed：代理IP的响应速速，单位是s
+        # speed：代理IP的响应速度，单位是s
         self.speed = speed
         # area：代理IP所在的地区
         self.area = area
