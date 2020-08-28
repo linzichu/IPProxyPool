@@ -109,20 +109,30 @@ class MongoPool(object):
         :param domain:域名地址
         :return:如果返回True，就表示添加成功了
         """
-        self.proxies.update_one({'_id': ip}, {'$push': {'disable_domains': domain}})
+        if self.proxies.count_documents({'_id': ip, 'disable_domains': domain}) == 0:
+            # 如果disable_domains字段中没有这个，就添加进去
+            self.proxies.update_one({'_id': ip}, {'$push': {'disable_domains': domain}})
+        else:
+            print("domain已经存在")
 
 
 if __name__ == '__main__':
     mongo = MongoPool()
+    proxy = Proxy(ip='220.249.149.180', port='9999')
+    mongo.insert_one(proxy)
     # proxy = Proxy("194.168.1.42", speed=2)
     # print(mongo.insert_one(proxy))
-    # proxy = Proxy("192.168.1.42", protocol=2, )
+    # proxy = Proxy("192.168.1.43", protocol=2, )
+    # mongo.insert_one(proxy)
     # mongo.update_one(proxy)
-    # mongo.disable_domain("192.168.1.41", "baidu.com")
+    # mongo.disable_domain("192.168.1.43", "淘宝.com")
     for i in mongo.find_all():
         print(i)
     # for i in mongo.find({'protocol': -1}, count=0):
     #     print(i)
     # for i in mongo.get_proxies(domain=1):
     #     print(i)
+    # proxy = Proxy(ip='192.168.1.42')
+    # mongo.delete_one(proxy)
+
     mongo.__del__()

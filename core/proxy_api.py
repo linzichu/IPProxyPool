@@ -1,9 +1,22 @@
-from pymongo import MongoClient
+from bs4 import BeautifulSoup
+import requests
 
-client = MongoClient("127.0.0.1")
-proxies = client['proxies_pool']["proxies"]
-conditions = {'speed': {"$nin": [-1]}}
-cursor = proxies.find(conditions)
-for i in cursor:
-    i.pop('_id')
-    print(i)
+urls = ['https://www.yrw.com/products/list-direct-all-performance-1-createTimeDesc-{}.html'.format(str(i)) for i in
+        range(1, 11)]
+
+
+# print(urls)
+
+def get_titles(urls, data=None):
+    web_data = requests.get(urls)
+    soup = BeautifulSoup(web_data.text, 'lxml')
+    titles = soup.select(' h3 > a > em > strong')
+    for title in titles:
+        data = {
+            'title': title.get_text()
+        }
+        print(data)
+
+
+for titles in urls:
+    get_titles(titles)

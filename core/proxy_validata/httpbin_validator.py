@@ -99,5 +99,5 @@ def __check_http_proxies(proxies, is_http=True):
 
 
 if __name__ == '__main__':
-    proxy = Proxy("202.104.113.35", 80)
+    proxy = Proxy(ip="220.249.149.180", port=9999)
     print(check_proxy(proxy))

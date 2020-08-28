@@ -55,3 +55,24 @@
 [WARNING 2020-08-24 15:53:17]已经存在的代理:{'ip': '192.168.1.42', 'port': None, 'protocol': -1, 'nick_type': -1, 'speed': 2, 'area': None, 'score': 50, 'disable_domains': []}
 [DEBUG 2020-08-24 15:53:45]插入新的的代理地址:{'ip': '193.168.1.42', 'port': None, 'protocol': -1, 'nick_type': -1, 'speed': 2, 'area': None, 'score': 50, 'disable_domains': [], '_id': '193.168.1.42'}
 [WARNING 2020-08-24 15:56:12]已经存在的代理:{'ip': '193.168.1.42', 'port': None, 'protocol': -1, 'nick_type': -1, 'speed': 2, 'area': None, 'score': 50, 'disable_domains': []}
+[DEBUG 2020-08-27 10:13:53]此id已经被删除：{'ip': '192.168.1.42', 'port': None, 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domains': []}
+[DEBUG 2020-08-27 10:55:13]domain已经存在
+[DEBUG 2020-08-27 10:59:29]domain已经存在
+[DEBUG 2020-08-27 10:59:50]domain已经存在
+[DEBUG 2020-08-27 11:00:17]domain已经存在
+[DEBUG 2020-08-27 11:01:28]domain已经存在
+[DEBUG 2020-08-27 11:01:45]domain已经存在
+[DEBUG 2020-08-27 11:02:56]domain已经存在
+[DEBUG 2020-08-27 11:03:29]domain已经存在
+[DEBUG 2020-08-27 11:07:22]domain已经存在
+[DEBUG 2020-08-27 11:08:15]domain已经存在
+[DEBUG 2020-08-27 11:08:47]domain已经存在
+[DEBUG 2020-08-27 11:09:58]domain已经存在
+[DEBUG 2020-08-27 11:13:53]domain已经存在
+[DEBUG 2020-08-27 11:14:00]domain已经存在
+[DEBUG 2020-08-27 11:15:00]domain已经存在
+[DEBUG 2020-08-27 11:16:49]domain可以添加存在
+[DEBUG 2020-08-27 11:20:48]domain可以添加存在
+[DEBUG 2020-08-27 11:25:59]插入新的的代理地址:{'ip': '192.168.1.43', 'port': None, 'protocol': 2, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domains': [], '_id': '192.168.1.43'}
+[DEBUG 2020-08-27 11:40:43]插入新的的代理地址:{'ip': '220.249.149.180', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domains': [], '_id': '220.249.149.180'}
+[WARNING 2020-08-27 11:41:46]已经存在的代理:{'ip': '220.249.149.180', 'port': '9999', 'protocol': -1, 'nick_type': -1, 'speed': -1, 'area': None, 'score': 50, 'disable_domains': []}

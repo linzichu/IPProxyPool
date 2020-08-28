@@ -15,6 +15,7 @@ user_agent_list = [
 
 def get_headers():
     headers = {
+        # 随机返回一个列表中的内容
         "User-Agent": random.choice(user_agent_list)
     }
 
